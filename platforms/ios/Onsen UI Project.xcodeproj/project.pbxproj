@@ -44,6 +44,8 @@
 		D80312FF30D349799D0A5193 /* LMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A796C9F1A0804E91B3C09466 /* LMLogger.m */; };
 		71F44D746F414F5AA1D40B9F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F47A41ED8A470894E58329 /* CoreBluetooth.framework */; };
 		D6A90865D4D248A6BCA790F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEBE4C702944A3C8FE557F3 /* CoreLocation.framework */; };
+		5E1E862A37734A0CBCA031ED /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F39BA3D1E42569A0038BD /* AppDelegate+notification.m */; };
+		FCFA47F9E386417EA2BA4D47 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C730FF34D3F24874AB65A8B4 /* PushPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +119,10 @@
 		1E27B6539D6F48CDAEB1860F /* LMLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LMLogger.h"; path = "com.unarin.cordova.beacon/LMLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		97F47A41ED8A470894E58329 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreBluetooth.framework"; path = "System/Library/Frameworks/CoreBluetooth.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		0DEBE4C702944A3C8FE557F3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		009F39BA3D1E42569A0038BD /* AppDelegate+notification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+notification.m"; path = "com.phonegap.plugins.PushPlugin/AppDelegate+notification.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C730FF34D3F24874AB65A8B4 /* PushPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PushPlugin.m"; path = "com.phonegap.plugins.PushPlugin/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		235743C34E8C42BA90732BC1 /* AppDelegate+notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "com.phonegap.plugins.PushPlugin/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6F93A5671CAD4FE19A23D649 /* PushPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushPlugin.h"; path = "com.phonegap.plugins.PushPlugin/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +231,10 @@
 				3F7FFB13630A4BF291645393 /* CDVLocationManager.h */,
 				C60C904B5C92492BA1ED7D81 /* AppDelegate+CDVLocationManager.h */,
 				1E27B6539D6F48CDAEB1860F /* LMLogger.h */,
+				009F39BA3D1E42569A0038BD /* AppDelegate+notification.m */,
+				C730FF34D3F24874AB65A8B4 /* PushPlugin.m */,
+				235743C34E8C42BA90732BC1 /* AppDelegate+notification.h */,
+				6F93A5671CAD4FE19A23D649 /* PushPlugin.h */,
 			);
 			name = Plugins;
 			path = "Onsen UI Project/Plugins";
@@ -412,6 +422,8 @@
 				486C173DCC2A4F0EBF6B846D /* CDVLocationManager.m in Sources */,
 				0D91D5B0DC3D4CEDBBA7C80F /* AppDelegate+CDVLocationManager.m in Sources */,
 				D80312FF30D349799D0A5193 /* LMLogger.m in Sources */,
+				5E1E862A37734A0CBCA031ED /* AppDelegate+notification.m in Sources */,
+				FCFA47F9E386417EA2BA4D47 /* PushPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
